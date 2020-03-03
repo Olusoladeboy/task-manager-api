@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // const connectionURL = 'mongodb://127.0.0.1:27017/task-manager-api';
-const connectionURL = process.env.CONNECTION_URL;
+const connectionURL = 'mongodb+srv://Olusola:olusola10000@cluster0-lo248.mongodb.net/test?retryWrites=true&w=majority';
 
 mongoose.connect(connectionURL, {
     useNewUrlParser: true,
